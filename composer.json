@@ -1,0 +1,32 @@
+{
+  "name": "manuke/php-curl-ftp",
+  "description":"php ftp wrapper (using curl library)",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/manuke/php-curl-ftp",
+  "authors": [
+      {
+          "name": "manuke",
+          "homepage": "https://github.com/manuke/"
+      }
+  ],
+  "time": "2019-02-18",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "phpstan/phpstan": "^0.11"
+  },
+  "autoload": {
+      "psr-4": {
+          "manuke\\PhpCurlFtp\\": "src"
+      }
+  },
+  "autoload-dev": {
+    "psr-4": {
+        "manuke\\PhpCurlFtp\\Tests\\": "tests"
+    }
+  }
+}
