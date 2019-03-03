@@ -1,6 +1,6 @@
 ## manuke/php-curl-ftp
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.com/manuke/php-curl-ftp.svg?branch=master)](https://travis-ci.com/manuke/php-curl-ftp)
+[![Build Status](https://travis-ci.org/manuke/php-curl-ftp.svg?branch=master)](https://travis-ci.org/manuke/php-curl-ftp)
 
 
 A PHP FTP wrapper using libcurl.
